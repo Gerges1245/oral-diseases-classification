@@ -1,0 +1,6 @@
+Model,Val Acc,Val Macro-F1,Test Acc,Test Macro-F1,Params (M),Train (min),Inference (ms/img)
+ResNet50V2 (tuned),0.9362,0.8793,0.9318,0.9055,23.58,12.7,3.66
+EfficientNetB0,0.8889,0.8284,0.8811,0.8447,4.06,6.6,3.16
+ResNet50V2 (default),0.893,0.8133,0.9045,0.8538,23.58,8.3,4.43
+MobileNetV2,0.8519,0.7758,0.8655,0.8338,2.27,4.8,2.08
+Custom CNN,0.7016,0.6297,0.6296,0.5501,0.46,8.1,1.27
